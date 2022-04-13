@@ -1,0 +1,135 @@
+
+body {
+    background: #f0efe9;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px 40px 0px 40px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-family: sans-serif;
+    color: #676978;
+    position: relative;
+}
+
+.mainDate {
+    display: flex;
+}
+
+.numberDay {
+    font-size: 51px;
+    font-weight: bold;
+    color: #676978;
+}
+
+.monthYear {
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.month {
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #676978;
+}
+
+.weekDay {
+    align-self: center;
+    margin-left: auto;
+
+}
+
+.task {
+    margin: 35px 0 35px 0;
+    display: flex;
+}
+
+.btn {
+    border-radius: 10%;
+    margin-left: auto;
+}
+
+.add {
+    display: block;
+    font-size: 55px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: -160px;
+    background: #50e3a4;
+    color: #46be8b;
+    border: 2px solid #46be8b;
+}
+
+.opacity {
+    opacity: 20%;
+}
+
+.completed {
+    background: greenyellow;
+}
+
+.modal {
+    position: fixed;
+    border: 1px solid black;
+    width: 600px;
+    z-index: 3;
+    background: white;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+}
+
+h2 {
+    margin: 45px auto 15px;
+    text-align: center;
+    color: #201a23;
+}
+
+h5 {
+    text-align: center;
+    color: #cdcdce;
+}
+
+.modalInput {
+    width: 250px;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid #c9d9f8;
+
+}
+
+.modalButton {
+    width: 100px;
+    height: 30px;
+    background: #000;
+    color: white;
+    border: none;
+    margin: 45px auto 45px;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: white;
+    font: inherit;
+}
+
+
+
+
+
+
+
+
+
+
