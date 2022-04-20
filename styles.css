@@ -65,6 +65,7 @@ body {
     background: #50e3a4;
     color: #46be8b;
     border: 2px solid #46be8b;
+    -webkit-appearance: none;
 }
 
 .opacity {
