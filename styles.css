@@ -52,7 +52,9 @@ body {
 }
 
 .add {
-    display: block;
+    display: inline-flex;
+    justify-content: center;
+    alignt-items: center;
     font-size: 55px;
     width: 80px;
     height: 80px;
